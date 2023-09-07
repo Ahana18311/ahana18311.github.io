@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For you!</title>
+  </head>
+  <body>
+    <video
+      id="myVideo"
+      src="Rick Astley - Never Gonna Give You Up (Official Music Video).mp4"
+      muted
+      controls
+      autoplay
+      poster=""
+    >
+      Rick Astley - Never Gonna Give You Up
+    </video>
+
+    <script>
+      setTimeout(function () {
+        var video = document.getElementById("myVideo");
+        video.autoplay = true;
+        video.muted = false;
+      }, 100);
+    </script>
+  </body>
+</html>
